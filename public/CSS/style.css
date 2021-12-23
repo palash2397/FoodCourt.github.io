@@ -1,0 +1,298 @@
+/* /* CSS reset */
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* Navigation Bar */
+#navbar{
+     
+    display: flex;
+    align-items: center;
+    position:relative;
+    
+   
+}
+
+
+
+
+/* Navigation Bar: Logs and img */
+#logo{
+    margin: 8px 16px;
+}
+
+#logo img{
+    height: 90px;
+    margin: 4px 17px;
+}
+
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    font-family: 'Lobster', cursive;
+
+    display: flex;
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+   
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 17px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(228, 213, 213);
+    cursor: pointer;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/*  Home And Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+
+}
+
+#home::before{
+    content: "";
+    background: url('../img/back1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 68%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+    
+
+}
+#home h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+#home p{
+    color: rgb(2, 59, 97);
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+
+/*  Services Section  */
+
+.services-container{
+    height: 500px;
+  
+   
+}
+
+#services{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+#services .box{
+    border: 3px solid black;
+    height: 323px;
+    padding: 25px;
+    margin: 8px 10px;
+    margin-bottom: 3rem;
+    border-radius: 13px;
+    background-color: rgb(235, 173, 173);
+    
+   
+    
+
+}
+#services .box img{
+    height: 170px;
+    display: block; 
+    margin: auto;
+}
+#services .box p{
+    font-family: 'Lily Script One', cursive;
+    font-size: 1.1rem;
+}
+
+
+
+/* Client Section */
+.client-section{
+    position: relative;
+    
+    
+}
+
+.client-section::before{
+ content: "";
+ position: absolute;
+ background: url('../img/back2.jpg') no-repeat center center/cover;
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+ opacity: 0.6;
+}
+
+
+#clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 10rem;
+}
+
+
+
+
+.client-item{
+  
+    padding: 10px;
+}*/
+
+
+
+/* Contact Section */ 
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url('../img/cont.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#contact-box form{
+    width:40%;
+    margin-top: 2.5rem;
+    
+}
+
+#contact-box label{
+    font-size: 1rem;
+    font-family: 'Lobster', cursive;
+}
+
+/* Footer */
+
+
+footer{
+    background: rgb(54, 48, 48);
+    color: white;
+    padding: 17px 10px;
+    text-align: center;
+  margin-top: 4.5rem;
+    height: 5px;
+  
+}
+
+
+
+
+
+
+/*  Utility Classes */ 
+.primary{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    
+    
+}
+
+.secondary{
+    font-family: 'Lily Script One', cursive;
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 4px;
+    border:2px solid black;
+    background-color: #1b5d5d;
+    color: white;
+    margin:10px;
+    border-radius: 13px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background: transparent;
+    border:2px solid white;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.6);
+}
+.text{
+    text-align: center;
+}  
+
+.btn-submit{
+    background-color: rgb(119, 107, 107);
+    display: flex;
+    margin: auto;
+  
+
+}
+
+ 
