@@ -242,7 +242,13 @@ footer{
     text-align: center;
   margin-top: 4.5rem;
     height: 5px;
-  
+     position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
+  color: white;
+  text-align: center;
 }
 
 
