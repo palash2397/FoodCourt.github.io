@@ -52,6 +52,8 @@
 /* Footer */
 footer{
     margin-top: 10rem;
+     overflow-x: hidden;
+     overflow-y: hidden;
 }
 
 /* Utility classes */
@@ -68,8 +70,5 @@ footer{
     body{
         overflow-x: hidden;
     }
-    footer{
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
+    
 }
