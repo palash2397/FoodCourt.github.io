@@ -68,4 +68,8 @@ footer{
     body{
         overflow-x: hidden;
     }
+    footer{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }
